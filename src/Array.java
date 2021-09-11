@@ -4,7 +4,7 @@ public class Array {
     int b=4;
     public static void main(String [] arugs){
         String[] studentName;
-        int[] studentId = new int[5];
+        int[] studentId = new int[6];
 
         Scanner sDetails = new Scanner(System.in);
         for(int i=0; i < 5 ; i++){
