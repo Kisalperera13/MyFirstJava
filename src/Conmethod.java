@@ -4,21 +4,16 @@ class sMethod{
         System.out.println("Hello" + name);
     }
 
-    public void cos2(){
+    public sMethod(){
         System.out.println("========Welcome=======");
     }
-
-    public cos3(){
-        System.out.println("-------------Thanks---------------");
-    }
-
 }
-
 public class Conmethod {
-    public static void main(){
-        sMethod custem = new sMethod();
-        custem.cos1("kisal");
+    public static void main(String [] modaya){
+       // sMethod
+        //custem.cos1("kisal");
 
 
     }
 }
+
