@@ -1,14 +1,15 @@
-import java.util.Scanner;
 class sMethod{
-   /* public void customer(){
-        System.out.println("Welcome");
-    } */
-    public void cos1(){
-        Scanner nN = new Scanner(System.in);
-        System.out.print("Enter a Name:");
-        String name1 = nN.next();
-        System.out.println("");
-        System.out.println("Hello" + name1);
+
+    public void cos1(String name){
+        System.out.println("Hello" + name);
+    }
+
+    public void cos2(){
+        System.out.println("========Welcome=======");
+    }
+
+    public cos3(){
+        System.out.println("-------------Thanks---------------");
     }
 
 }
@@ -16,7 +17,8 @@ class sMethod{
 public class Conmethod {
     public static void main(){
         sMethod custem = new sMethod();
-        custem.cos1();
+        custem.cos1("kisal");
+
 
     }
 }
